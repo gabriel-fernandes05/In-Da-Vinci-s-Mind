@@ -1,0 +1,55 @@
+body {
+    background-image: url('../img/personagem.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}
+
+#prota1{
+    width: 10rem;
+    margin-left: 11rem;
+    margin-top: 10rem;
+    float: left;
+}
+
+#prota2{
+    width: 9rem;
+    margin-top: 10rem;
+    margin-left: 18rem;
+}
+
+#prota1:hover{
+    width: 13rem;
+}
+
+#prota2:hover{
+    width: 13rem;
+}
+
+#alo {
+    display: none;
+    transform: scaleX(-1);
+    margin-top:250px;
+    margin-left: 50px;
+    width: 140px;
+    float: left;
+}
+
+
+
+#falaFraManoel{
+    display: none;
+    margin: 0px;
+    background-color: white;
+    border: white 10px solid;
+    border-radius: 60px;
+}
+
+.continuar{
+    margin: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
